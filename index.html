@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hospitele</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset='utf-8'/> 
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='blogger' name='generator'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<link href='http://www.blogger.com/openid-server.g' rel='openid.server'/>
+<link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+<link expr:href='data:blog.url' rel='canonical'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<link expr:href='data:blog.homepageUrl + &quot;feeds/posts/default?alt=rss&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+<link expr:href='&quot;http://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+<style>
+body {
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+		overflow: hidden;
+		background-color: white;
+		box-shadow: 0px 15px 10px -15px;
+}
+
+.topnav a {
+		float: left;
+		display: block;
+		color: black;
+		text-align: center;
+		margin-left: 70px;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 18px;
+		transition-property: color text;
+ transition-duration: 0.8s; 
+
+}
+
+.topnav a:hover {
+		background-color: #ffebeb;
+		color: red;
+		padding: 18px 20px;
+}
+
+.topnav a:active {
+		background-color: white;
+		color: purple;
+}
+
+.topnav .icon {
+		display: none;
+}
+
+.simple_steps{
+		margin-left:50px;
+}
+@media screen and (max-width: 1130px) {
+		.topnav a:not(:first-child) {display: none;}
+		.topnav a.icon {
+				float: right;
+				display: block;
+		}
+		.topnav.active {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width:50%;
+		}
+}
+
+@media screen and (max-width: 1130px) {
+		.topnav.responsive {position: relative;}
+		.topnav.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+		}
+		.topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+		}
+		.topnav.active {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width:50%;
+		}
+}
+
+.simple_steps.button-whatsapp{
+		text-align: center;
+		font-size: 20px;
+		margin-left:auto;
+		margin-right: auto;
+		width:50%;
+		color:white;
+		background-color:green;  
+}
+.left12{
+		width:100%;
+		height: auto;
+		max-width: 1300px;
+}
+
+.btn-whatsapp {
+		border: 2px solid #4CAF50;
+		color: #4CAF50;
+		background-color: white;
+		padding: 16px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 24px;
+		margin:4px 2px;
+		cursor:pointer;
+		transition-property:color text;
+		transition-duration: 0.8s; 
+}
+
+.btn-whatsapp:hover {
+		background-color: #4CAF50;
+		color: white;
+		padding: 20px 36px;
+
+}
+
+.steps-create{
+		font-weight:bold;
+		text-align:center;
+		font-size: 26px;
+
+}
+.left11{
+	
+		width: 100%;
+		height: auto;
+		max-width: 288px;
+}
+
+footer{
+	text-align: center;
+	padding:1px;
+	background-color: #0b0333;
+	color: white;
+}
+footer a{
+	text-decoration:none;
+	color :#91ccc4;
+	transition-property: color text;
+ 	transition-duration: 0.8s;
+ 	
+}
+footer a:hover{
+	color:#00c8ff;
+	padding:5px;
+	background-color: #14065c;
+	word-spacing: 2px;
+	text-align: right;
+	margin-left: 20px;
+}
+
+.floating-text{
+	color:#5294a8;
+	transition-property: color text ;
+	transition-duration: 0.8s;
+}
+
+.floating-text:hover{
+	color:#cc0808;
+	word-spacing: 2px;
+	cursor: pointer;
+}
+.extra-shots{
+	text-decoration:none;
+	text-align:center;
+	font-size: 20px;
+	padding: 2px;
+}
+.extra-shots a{
+	text-decoration: none;
+}
+.extra-list{
+	color:#0f4094;
+	transition-property: color text;
+	transition-duration: 1s;
+}
+.extra-list:hover{
+	color:#c40000;
+	word-spacing: 3.2px;
+	cursor: pointer;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+		<a href="index.html" class="active"><img border=0 data-original-width="784" data-original-height="231" src='photos/logo.png'  width="200"></a>
+		<a href="index.html" style="margin-left:90px;margin-right:20px;margin-top:17px">HOME</a>
+		<a href="about-us.html" style="margin-right:18px;margin-top: 17px">ABOUT US</a>
+		<a href="contact-us.html" style="margin-right: 22px;margin-top: 17px">CONTACT US</a>
+		<a href="donate.html" style="margin-top: 17px">DONATE</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+		</a>
+</div>
+
+<div class='imag' style="padding-left:3px;text-align:center;">
+		<p>         </p>
+		<p>         </p>
+		<img class='left12' border=0 data-original-height="1176" data-original-width="2048" srcset="photos/first-banner.png" width="1300" >
+</div>
+<div style="text-align: center;">
+<a href='https://wa.me/+917398520444'><button style="text-align: center;" class='btn-whatsapp'>
+				<i class="fa fa-whatsapp"> Order Now</i></button></a> 
+</div>
+<div class='simple_steps'>
+		<h2>OVERVIEW</h2>
+		<p class='simple_steps_para'>
+				1. You needn't to worry. Your number is automatically read.
+		</p>
+		<p class='simple_steps_para'>
+				2.Just choose the option from Given list
+		</p>
+
+				<div class="floating-text">
+						<p>
+								&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>Choose 1: To Place your Order.</b>
+						</p>
+						<p>
+								&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>Choose 2: To see Your Account Details</b>
+						</p>
+						<p>
+								&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>Choose 3: Change Address</b>
+						</p>
+						<p>
+								&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b>Choose 4: To Exit</b>
+						</p>
+				</div>
+		<p>
+				3. Moving on next to how to order medicines from our whatsapp Vendor.
+		</p>
+		<p>
+				4. You will be prompted with <b class="floating-text">"Enter Medicine Name"</b>.
+		</p>
+		<p>
+				5. You will be provided with the details of available medicine name with serial number.
+		</p>
+		<p>
+				6. Choose the Medicine(Enter Sr. No. for each medicine)</p>
+
+		<p>
+				&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<b class="floating-text">"For example we are proceeding with <u><i>Calpol</i></u>"</b>.
+		</p>
+		<p>
+				7. Now <b class="floating-text">Enter 1 to CONTINUE</b> or <b class="floating-text">Enter 2 to CHANGE THE ADDRESS</b> or <b class="floating-text">Enter 3 to CANCEL</b>.
+		</p>
+		<p>
+				8. You will need to enter the quantity of tablet.
+		</p>
+		<p>
+				9. <i class="floating-text"><b>Eureka! :)</b></i> You successfully placed the order.
+		</p>
+		<h2 style="text-align: center;">Try Now Our Service</h2>
+			
+
+</div>
+
+
+
+<div style="text-align: center;">
+<a href='https://wa.me/+917398520444'><button style="text-align: center;" class='btn-whatsapp'>
+				<i class="fa fa-whatsapp"> Order Now</i></button></a> 
+</div>
+<div style="text-align: center;">
+	<h2> Features </h2>
+	<img style="width:50%;height: auto;text-align: center;" src="photos/features.png" data-original-width="3389" data-original-height="1609" width="800">
+</div>
+<div>
+		<p>
+													
+		</p>
+		<p>
+																				
+		</p>
+</div>
+
+<div class='create-account'>
+		<img class="left12" border='0' data-original-height="1222" data-original-width="2573" src="photos/create-account.png" width="1300">  
+		<h2 style="margin-left:20px;text-align: center;font-size: 30px;"><u>How to Create your Account in just Three Steps</u></h2>
+		<p>&ensp;</p>
+		<div class='steps-create'>
+				<p>1. Just Respond with any greeting to our service number.</p>
+						
+				<img class="left11" border=0 data-original-width="1600" data-original-height="720" src="photos/Create-Account/1.jpg" width="288">
+	
+				<p>2. Enter Your Name</p>
+				
+				<img class="left11" border=0 data-original-width="1600" height="640"data-original-height="720"  src="photos/Create-Account/2.jpg"  width="288">
+				<p>3. Enter Your Address</p>
+				<img class="left11" border=0 data-original-width="1600" height="640" data-original-height="720" src="photos/Create-Account/3.jpg"  width="288">
+							</a>
+				<p>4. Enter Your ZIP Code</p>
+				<img class="left11" border=0 data-original-width="1600" height="640" data-original-height="720" src="photos/Create-Account/4.jpg"  width="288">
+		</a>
+				<p>5. Hurray!:) Your Account Created Successfully</p>
+				<p>Check Here the</p>
+		</div>
+
+
+</div>
+<div style="text-align: center;">
+<a href='https://wa.me/+917398520444'><button style="text-align: center;" class='btn-whatsapp'>
+				<i class="fa fa-whatsapp"> Order Now</i></button></a> 
+</div>
+<div class="extra-shots">
+	<p>Check Here how to <a href="place-order.html"><b class="extra-list"><i>To Place Order on our Whatsapp Vendor</i></b></p></a>
+
+		<p> </p><p> </p><p> </p><p> </p>
+
+	 <p>Exiting is quite easy <b class="extra-list">Reply With <i><u>"3"</u></i> To EXIT</b></p>
+</div>
+
+
+</div>
+<footer style="background-color:#0b0333;">
+	<p>Contact Us</p>
+	<p><a href='mailto:help.hospitele@gmail.com'><p> </p><i class="fa fa-envelope-o">&ensp;&ensp;Email Us</i></a>&ensp;&ensp;&ensp;</p>
+	<p><a href='tel:+91739852044'><p> </p><i class="fa fa-phone">&ensp;&ensp;Call Me</i></a>&ensp;&ensp;&ensp;</p>
+	<p><a href='https://wa.me/+917398520444'><p> </p><i class="fa fa-whatsapp">&ensp;&ensp;Whatsapp</i></a>&ensp;&ensp;&ensp;</p>
+	<p><a href='https://appopener.com/instagram/cefe2'><p> </p><i class="fa fa-instagram">&ensp;&ensp;Instagram</i></a>&ensp;&ensp;&ensp;</p>
+	<p><a href='https://appopener.com/twitter/9bf26'><p> </p><i class="fa fa-twitter">&ensp;&ensp;Twitter</i></a>&ensp;&ensp;&ensp;</p>
+	<p><a href='https://appopener.com/url/2f4e3'><p> </p><i class="fa fa-telegram">&ensp;&ensp;Telegram</i></a>&ensp;&ensp;&ensp;</p>
+	<p><a href='https://appopener.com/facebook/1603e'><p> </p><i class="fa fa-facebook">&ensp;&ensp;Faceboook</i></a></p>
+</footer>
+<script>
+function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+				x.className += " responsive";
+		} else {
+				x.className = "topnav";
+		}
+}
+</script>
+
+</body>
+</html>
+	
